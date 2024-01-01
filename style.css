@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #fa9379;
+    text-align: center;
+}
+ 
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{  
+    position: relative;
+    top: 30px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: azure;
+    border: none;
+    border-radius: 20px;
+    font-size: 35px;
+    color: #fa9379;
+    font-weight: 500; 
+}
+
+#reset{
+    position: relative;
+    top: 60px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: rgb(28, 110, 124);
+    cursor: pointer;
+}
+#new_btn{
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: rgb(28, 110, 124);
+    cursor: pointer;
+}
+
+.imgBox img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.msg_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110vmin;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.msg_container p{
+    font-size: 25px;
+    font-weight: 500;
+}
